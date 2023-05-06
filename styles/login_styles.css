@@ -1,0 +1,104 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f6f8fa;
+}
+
+.container {
+    margin-top: 80px;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border: none;
+    overflow: hidden;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+.card-header {
+    background-color: #00386c;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+}
+
+.card-body {
+    padding: 30px;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+.form-control {
+    border-radius: 30px;
+    padding: 15px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border-color: #dee2e6;
+    box-shadow: none;
+    color: #000;
+}
+
+.form-control:focus {
+    border-color: #00386c;
+    box-shadow: none;
+}
+
+.btn {
+    background-color: #00386c;
+    border-color: #00386c;
+    border-radius: 30px;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    background-color: #002753;
+    border-color: #002246;
+}
+
+.forgot-password {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.forgot-password a {
+    color: #00386c;
+}
+
+.forgot-password a:hover {
+    color: #002753;
+    text-decoration: underline;
+}
+.already-registered {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.already-registered a {
+    color: #00386c;
+}
+
+.already-registered a:hover {
+    color: #002753;
+    text-decoration: underline;
+}
+
+.back-to-login {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.back-to-login a {
+    color: #00386c;
+}
+
+.back-to-login a:hover {
+    color: #002753;
+    text-decoration: underline;
+}
